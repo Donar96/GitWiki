@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Wiki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 10px 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        aside {
+            flex: 1 1 25%;
+            padding: 15px;
+            background: #ddd;
+        }
+
+        main {
+            flex: 3 1 75%;
+            padding: 15px;
+            background: #fff;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Git Wiki</h1>
+    <p>Dein Nachschlagewerk rund um Git</p>
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="#intro">Einführung</a></li>
+            <li><a href="#commands">Wichtige Befehle</a></li>
+            <li><a href="#branches">Branch-Management</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>Einführung</h2>
+            <p>Git ist ein verteiltes Versionskontrollsystem, das von Linus Torvalds entwickelt wurde. Es ermöglicht Teams, effizient und koordiniert an Softwareprojekten zu arbeiten.</p>
+        </section>
+
+        <section id="commands">
+            <h2>Wichtige Befehle</h2>
+            <ul>
+                <li><code>git init</code>: Ein neues Repository initialisieren.</li>
+                <li><code>git clone [URL]</code>: Ein bestehendes Repository klonen.</li>
+                <li><code>git add [Datei]</code>: Änderungen zur Staging-Area hinzufügen.</li>
+                <li><code>git commit -m "Nachricht"</code>: Änderungen committen.</li>
+            </ul>
+        </section>
+
+        <section id="branches">
+            <h2>Branch-Management</h2>
+            <p>Mit Branches können verschiedene Entwicklungsstränge getrennt bearbeitet werden. Wichtige Befehle:</p>
+            <ul>
+                <li><code>git branch</code>: Liste der Branches anzeigen.</li>
+                <li><code>git checkout [Branch-Name]</code>: Zu einem Branch wechseln.</li>
+                <li><code>git merge [Branch-Name]</code>: Änderungen aus einem Branch mergen.</li>
+            </ul>
+        </section>
+
+        <section id="troubleshooting">
+            <h2>Troubleshooting</h2>
+            <p>Häufige Probleme und Lösungen:</p>
+            <ul>
+                <li><code>git status</code>: Status des Repositories überprüfen.</li>
+                <li><code>git log</code>: Commit-Historie anzeigen.</li>
+                <li><code>git reset</code>: Änderungen zurücksetzen.</li>
+            </ul>
+        </section>
+    </main>
+</div>
+
+<footer>
+    <p>© 2025 Git Wiki. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
